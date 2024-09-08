@@ -539,7 +539,7 @@ nav li:first-child{
 }
 @media screen and   (max-width: 460px){
     .footer{
-        top:900%;
+        top:850%;
     }
 }
 @media only screen and (min-width: 460px) and (max-width: 910px){
