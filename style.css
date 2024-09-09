@@ -537,9 +537,9 @@ nav li:first-child{
     text-decoration: none;
     color: #ffffff;
 }
-@media screen and   (max-width: 460px){
+@media screen and   (max-width: 460px) and (min-width:325px){
     .footer{
-        top:850%;
+        top:900%;
     }
 }
 @media only screen and (min-width: 460px) and (max-width: 910px){
@@ -553,5 +553,22 @@ nav li:first-child{
     }
     .social-menu ul{
         left:51%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .container img{
+        padding-inline: 15px;
+    }
+    .college{
+        position: relative;
+        left:40.5%;
+    }
+    .footer{
+        top:400%;
+    }
+}
+@media screen and   (max-width: 325px){
+    .footer{
+        top:700%;
     }
 }
